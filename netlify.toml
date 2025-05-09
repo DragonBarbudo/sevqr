@@ -1,0 +1,11 @@
+[build]
+  # Comando para generar el sitio estático
+  command = "npm run generate"
+  # Carpeta de salida tras la generación
+  publish = "dist"
+
+[[redirects]]
+  # Redirigir todo al index para soportar SPA
+  from = "/*"
+  to = "/index.html"
+  status = 200
