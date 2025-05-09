@@ -1,0 +1,12 @@
+/* Estilos globales y configuración de Tailwind + Nuxt UI */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@nuxt/ui";
+
+/* Fuente global */
+body {
+  font-family: 'Poppins', sans-serif;
+}
