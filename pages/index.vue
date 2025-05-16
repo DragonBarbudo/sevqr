@@ -52,6 +52,7 @@
         </Card>
       </div>
     </div>
+    <div style="text:center;"><img src="https://hitscounter.dev/api/hit?url=sevqro.mx&label=Visitantes&icon=person-raised-hand&color=%23b02a37"></div>
   </Container>
 </template>
 
