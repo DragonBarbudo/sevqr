@@ -54,10 +54,21 @@
     </div>
     <div style="text-align:center; padding: 20px;"><img src="https://hitscounter.dev/api/hit?url=sevqro.mx&label=Visitantes&icon=person-raised-hand&color=%23b02a37"></div>
   </Container>
+  
 </template>
 
 <script setup>
-// Autoimportación de componentes de @nuxt/ui
+import { useHead } from '#app'
+
+useHead({
+  script: [
+    {
+      src: "https://umami-production-0033e.up.railway.app/script.js",
+      async: true,
+      'data-website-id': "618f5936-c621-49e5-94b9-05e6ebe8bd04"
+    }
+  ]
+})
 </script>
 
 <style scoped>
